@@ -1,0 +1,15 @@
+type Query {
+    resume: [ResumeEntity]
+}
+
+
+type ResumeEntity {
+    id: String
+    personalDetails: PersonalDetails
+}
+
+type PersonalDetails {
+    name: String
+    emailId: String
+    phone: String
+}
